@@ -20,9 +20,10 @@
 </body>
 </html>
 
-h1{
-  color:red;
-  top-margin: 25px
+container{
+  display:flex;
+  flex-direction: colum;
+  height: 100vh; 
 }
 .tuade{
   color: tomato;
@@ -36,6 +37,8 @@ h1{
   top-margin: 6pt;
   font-size: 15pt;
   font-weight: bold;
-  
+
+}
+.footer{
   
   
