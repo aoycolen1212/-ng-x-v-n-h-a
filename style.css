@@ -26,17 +26,26 @@ container{
   height: 100vh; 
 }
 .tuade{
-  color: tomato;
-  font-family: Arial;
-  top-margin: 20pt;
-  font-size: 20pt;
-  font-weight: bold;
+  flex: 15%;
+  background-color: lightgray;
+  background: url("images/logoNQ.png") center;
 }
 .noidung{
-  color: pink;
-  top-margin: 6pt;
-  font-size: 15pt;
-  font-weight: bold;
+ flex: 5%;
+  background-color: darkgray;
+  color: white;
+  display: flex;
+}
+.menu a{
+  padding: 15px 20px;}
+.menu hover{
+  background-color: lightgray;
+  color: #FF69B4;
+}
+.content{
+  background-color: light pink:\flex: 70%;
+  display: flex;
+}
 
 }
 .footer{
