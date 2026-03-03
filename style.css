@@ -28,7 +28,7 @@ container{
 .tuade{
   flex: 15%;
   background-color: lightgray;
-  background: url("images/logoNQ.png") center;
+  
 }
 .noidung{
  flex: 5%;
@@ -43,7 +43,8 @@ container{
   color: #FF69B4;
 }
 .content{
-  background-color: light pink:\flex: 70%;
+  background-color: light pink
+  flex: 70%;
   display: flex;
 }
 
