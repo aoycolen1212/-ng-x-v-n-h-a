@@ -25,25 +25,29 @@ container{
   flex-direction: colum;
   height: 100vh; 
 }
-.tuade{
+.header{
   flex: 15%;
-  background-color: lightgray;
+  background-color: url("images/banner.png") center/100%;
+  
   
 }
-.noidung{
+.menu{
  flex: 5%;
   background-color: darkgray;
   color: white;
   display: flex;
 }
 .menu a{
-  padding: 15px 20px;}
-.menu hover{
-  background-color: lightgray;
+  padding: 15px;
+}
+
+.menu a:hover{
+  background-color: lightpink;
   color: #FF69B4;
 }
+
 .content{
-  background-color: light pink
+  background-color: lightpink
   flex: 70%;
   display: flex;
 }
